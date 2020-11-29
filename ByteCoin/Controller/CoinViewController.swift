@@ -22,7 +22,6 @@ class CoinViewController: UIViewController, UIPickerViewDataSource {
         
         currencyPicker.dataSource = self
         currencyPicker.delegate = self
-        
         coinManager.delegate = self
         // Do any additional setup after loading the view.
     }
